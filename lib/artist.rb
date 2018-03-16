@@ -1,5 +1,5 @@
 class Artist
-  extend Concerns::Findable
+  extend Concerns::Findable #mixing the module Concerns into class. Access to findable method
 
   attr_accessor :name
   attr_reader :songs, :genre
